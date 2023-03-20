@@ -64,7 +64,7 @@ public class CalculatorTest{
     @Test
     public void testPowerNegative(){
         double observed = c.power(2.0, -1);
-        double expected = 1.0;
+        double expected = 0.5;
         assertEquals(observed, expected, 1e-10);
     }
 
