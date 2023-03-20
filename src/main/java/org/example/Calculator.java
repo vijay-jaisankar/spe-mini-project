@@ -30,6 +30,20 @@ public class Calculator {
         return res;
     }
 
+    // Natural log function
+    public double naturalLog(double x){
+        logger.info("[INPUT NLOG] - " + x);
+
+        if(x < 0){
+            logger.info("[OUTPUT NLOG] ERROR");
+            return Double.NaN;
+        }
+
+        double res = Math.log(x);
+        logger.info("[OUTPUT NLOG]" + res);
+        return res;
+    }
+
     public static void main(String[] args) {
         System.out.println("Hello from Java!");
     }
