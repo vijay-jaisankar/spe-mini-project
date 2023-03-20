@@ -40,7 +40,7 @@ public class Calculator {
         }
 
         double res = Math.log(x);
-        logger.info("[OUTPUT NLOG]" + res);
+        logger.info("[OUTPUT NLOG] " + res);
         return res;
     }
 
@@ -55,6 +55,24 @@ public class Calculator {
 
         double res = Math.pow(x, n);
         logger.info("[OUTPUT POWER]" + res);
+        return res;
+    }
+
+    // Factorial function
+    public double factorial(double x){
+        logger.info("[INPUT FACT] " + x);
+
+        if(x < 0 || Double.isNaN(x)){
+            logger.info("[OUTPUT FACT] ERROR");
+            return Double.NaN;
+        }
+
+        x = Math.floor(x);
+        double res = 1;
+        for(double i = 1; i <= x; i+=1.0){
+            res = res*i;
+        }
+        logger.info("[OUTPUT FACT] " + res);
         return res;
     }
 
