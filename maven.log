@@ -38,11 +38,11 @@
  T E S T S
 -------------------------------------------------------
 Running CalculatorTest
-Tests run: 10, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.703 sec
+Tests run: 13, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.544 sec
 
 Results :
 
-Tests run: 10, Failures: 0, Errors: 0, Skipped: 0
+Tests run: 13, Failures: 0, Errors: 0, Skipped: 0
 
 [INFO] 
 [INFO] --- maven-jar-plugin:2.4:jar (default-jar) @ calculator ---
@@ -123,6 +123,6 @@ Tests run: 10, Failures: 0, Errors: 0, Skipped: 0
 [INFO] ------------------------------------------------------------------------
 [INFO] BUILD SUCCESS
 [INFO] ------------------------------------------------------------------------
-[INFO] Total time:  5.511 s
-[INFO] Finished at: 2023-03-21T00:55:56+05:30
+[INFO] Total time:  5.536 s
+[INFO] Finished at: 2023-03-21T00:58:51+05:30
 [INFO] ------------------------------------------------------------------------

@@ -74,4 +74,25 @@ public class CalculatorTest{
         double expected = Double.NaN;
         assertEquals(observed, expected, 1e-10);
     }
+
+    @Test
+    public void testFactorialPositive(){
+        double observed = c.factorial(5.0);
+        double expected = 120.0;
+        assertEquals(observed, expected, 1e-10);
+    }
+
+    @Test 
+    public void testFactorialNegative(){
+        double observed = c.factorial(-1.0);
+        double expected = Double.NaN;
+        assertEquals(observed, expected, 1e-10);
+    }
+
+    @Test 
+    public void testFactorialPrecision(){
+        double observed = c.factorial(0.0);
+        double expected = 1.0;
+        assertEquals(observed, expected, 1e-10);
+    }
 }
