@@ -27,6 +27,7 @@ jobs:
       # Build Maven project
       - name: Build with Maven
         run: |
+          tree
           cd calculator
           mvn -B package --file pom.xml
         
@@ -34,5 +35,5 @@ jobs:
       - name: Locate the jar file
         run: |
           pwd
-          cd calcuator/target
+          cd target
           ls -a
