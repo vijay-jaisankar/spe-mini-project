@@ -33,3 +33,13 @@ jobs:
       # Build Docker container
       - name: Build Docker image
         run: docker build . --file Dockerfile --tag sample-docker-image
+        
+      # Push code to Github packages
+      - name: Push image to ghcr
+        uses: docker/build-push-action@v2
+        with:
+          username: ${{ github.actor }}
+          password: ${{ secrets.GITHUB_TOKEN }}
+          registry: docker.pkg.github.com
+          repository: ${{ github.repository }}/calc
+          tags: latest, ${{ github.run_number }}
