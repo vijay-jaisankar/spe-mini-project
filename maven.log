@@ -17,7 +17,7 @@
 [INFO] 
 [INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ calculator ---
 [INFO] Using 'UTF-8' encoding to copy filtered resources.
-[INFO] skip non existing resourceDirectory /home/vijay/Desktop/temp/spe-mini-project/src/main/resources
+[INFO] Copying 1 resource
 [INFO] 
 [INFO] --- maven-compiler-plugin:3.1:compile (default-compile) @ calculator ---
 [INFO] Changes detected - recompiling the module!
@@ -38,7 +38,31 @@
  T E S T S
 -------------------------------------------------------
 Running CalculatorTest
-Tests run: 12, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.594 sec
+01:41:16.662 [main] INFO  org.example.Calculator - [INPUT NLOG] 1.0
+01:41:16.666 [main] INFO  org.example.Calculator - [OUTPUT NLOG] 0.0
+01:41:16.668 [main] INFO  org.example.Calculator - [INPUT SQROOT] -1.0
+01:41:16.668 [main] INFO  org.example.Calculator - [OUTPUT SQROOT] ERROR
+01:41:16.669 [main] INFO  org.example.Calculator - [INPUT SQROOT] 49.0
+01:41:16.670 [main] INFO  org.example.Calculator - [OUTPUT SQROOT] 7.0
+01:41:16.679 [main] INFO  org.example.Calculator - [INPUT POWER] 3.0 2.0
+01:41:16.680 [main] INFO  org.example.Calculator - [OUTPUT POWER]9.0
+01:41:16.680 [main] INFO  org.example.Calculator - [INPUT POWER] 2.0 -1.0
+01:41:16.681 [main] INFO  org.example.Calculator - [OUTPUT POWER]0.5
+01:41:16.681 [main] INFO  org.example.Calculator - [INPUT NLOG] 2.718281828459045
+01:41:16.681 [main] INFO  org.example.Calculator - [OUTPUT NLOG] 1.0
+01:41:16.682 [main] INFO  org.example.Calculator - [INPUT NLOG] -2.718281828459045
+01:41:16.682 [main] INFO  org.example.Calculator - [OUTPUT NLOG] ERROR
+01:41:16.683 [main] INFO  org.example.Calculator - [INPUT POWER] NaN 100.0
+01:41:16.683 [main] INFO  org.example.Calculator - [OUTPUT POWER] ERROR
+01:41:16.684 [main] INFO  org.example.Calculator - [INPUT SQROOT] 401.0
+01:41:16.684 [main] INFO  org.example.Calculator - [OUTPUT SQROOT] 20.024984394500787
+01:41:16.685 [main] INFO  org.example.Calculator - [INPUT FACT] 0.0
+01:41:16.686 [main] INFO  org.example.Calculator - [OUTPUT FACT] 1.0
+01:41:16.687 [main] INFO  org.example.Calculator - [INPUT FACT] 5.0
+01:41:16.687 [main] INFO  org.example.Calculator - [OUTPUT FACT] 120.0
+01:41:16.687 [main] INFO  org.example.Calculator - [INPUT FACT] -1.0
+01:41:16.688 [main] INFO  org.example.Calculator - [OUTPUT FACT] ERROR
+Tests run: 12, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.702 sec
 
 Results :
 
@@ -73,6 +97,13 @@ Tests run: 12, Failures: 0, Errors: 0, Skipped: 0
 [INFO] META-INF/DEPENDENCIES already added, skipping
 [INFO] META-INF/LICENSE already added, skipping
 [INFO] META-INF/NOTICE already added, skipping
+[INFO] META-INF/MANIFEST.MF already added, skipping
+[INFO] META-INF/ already added, skipping
+[INFO] META-INF/LICENSE already added, skipping
+[INFO] META-INF/NOTICE already added, skipping
+[INFO] META-INF/maven/ already added, skipping
+[INFO] org/ already added, skipping
+[INFO] org/apache/ already added, skipping
 [INFO] Building jar: /home/vijay/Desktop/temp/spe-mini-project/target/calculator-1.0-SNAPSHOT-jar-with-dependencies.jar
 [INFO] META-INF/ already added, skipping
 [INFO] META-INF/MANIFEST.MF already added, skipping
@@ -98,6 +129,13 @@ Tests run: 12, Failures: 0, Errors: 0, Skipped: 0
 [INFO] META-INF/DEPENDENCIES already added, skipping
 [INFO] META-INF/LICENSE already added, skipping
 [INFO] META-INF/NOTICE already added, skipping
+[INFO] META-INF/MANIFEST.MF already added, skipping
+[INFO] META-INF/ already added, skipping
+[INFO] META-INF/LICENSE already added, skipping
+[INFO] META-INF/NOTICE already added, skipping
+[INFO] META-INF/maven/ already added, skipping
+[INFO] org/ already added, skipping
+[INFO] org/apache/ already added, skipping
 [INFO] 
 [INFO] --- maven-install-plugin:2.4:install (default-install) @ calculator ---
 [INFO] Installing /home/vijay/Desktop/temp/spe-mini-project/target/calculator-1.0-SNAPSHOT.jar to /home/vijay/.m2/repository/org/example/calculator/1.0-SNAPSHOT/calculator-1.0-SNAPSHOT.jar
@@ -106,7 +144,7 @@ Tests run: 12, Failures: 0, Errors: 0, Skipped: 0
 [INFO] 
 [INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ calculator ---
 [INFO] Using 'UTF-8' encoding to copy filtered resources.
-[INFO] skip non existing resourceDirectory /home/vijay/Desktop/temp/spe-mini-project/src/main/resources
+[INFO] Copying 1 resource
 [INFO] 
 [INFO] --- maven-compiler-plugin:3.1:compile (default-compile) @ calculator ---
 [INFO] Nothing to compile - all classes are up to date
@@ -123,6 +161,6 @@ Tests run: 12, Failures: 0, Errors: 0, Skipped: 0
 [INFO] ------------------------------------------------------------------------
 [INFO] BUILD SUCCESS
 [INFO] ------------------------------------------------------------------------
-[INFO] Total time:  4.745 s
-[INFO] Finished at: 2023-03-21T01:30:35+05:30
+[INFO] Total time:  9.040 s
+[INFO] Finished at: 2023-03-21T01:41:19+05:30
 [INFO] ------------------------------------------------------------------------

@@ -1,5 +1,5 @@
-# Maven log file
-rm -f maven.log 
+# Maven and Log4J log file
+rm -f maven.log calculator.log
 touch maven.log
 
 # Build and test the maven project
