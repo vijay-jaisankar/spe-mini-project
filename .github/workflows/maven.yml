@@ -24,8 +24,10 @@ jobs:
           distribution: 'temurin'
           cache: maven
       
-      # Build Maven project
+      # Build and Test Maven project
       - name: Build with Maven
         run: |
           cd calculator
           mvn clean install
+          mvn test
+          mvn clean
