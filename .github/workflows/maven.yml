@@ -27,12 +27,5 @@ jobs:
       # Build Maven project
       - name: Build with Maven
         run: |
-          tree
           cd calculator
           mvn clean install
-        
-      # Locate the created jar file
-      - name: Locate the jar file
-        run: |
-          cd ~
-          tree
