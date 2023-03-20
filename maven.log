@@ -38,7 +38,7 @@
  T E S T S
 -------------------------------------------------------
 Running CalculatorTest
-Tests run: 7, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.576 sec
+Tests run: 7, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.534 sec
 
 Results :
 
@@ -123,6 +123,6 @@ Tests run: 7, Failures: 0, Errors: 0, Skipped: 0
 [INFO] ------------------------------------------------------------------------
 [INFO] BUILD SUCCESS
 [INFO] ------------------------------------------------------------------------
-[INFO] Total time:  4.529 s
-[INFO] Finished at: 2023-03-21T00:25:56+05:30
+[INFO] Total time:  4.281 s
+[INFO] Finished at: 2023-03-21T00:35:00+05:30
 [INFO] ------------------------------------------------------------------------

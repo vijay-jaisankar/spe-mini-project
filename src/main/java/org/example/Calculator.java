@@ -17,9 +17,9 @@ public class Calculator {
 
     // Square root function
     public double squareRoot(double x){
-        logger.info("[INPUT SQROOT] - " + x);
+        logger.info("[INPUT SQROOT] " + x);
 
-        if(x < 0)  {
+        if(x < 0 || Double.isNaN(x))  {
             logger.info("[OUTPUT SQROOT] ERROR");
             return Double.NaN;
         }
@@ -32,15 +32,28 @@ public class Calculator {
 
     // Natural log function
     public double naturalLog(double x){
-        logger.info("[INPUT NLOG] - " + x);
+        logger.info("[INPUT NLOG] " + x);
 
-        if(x < 0){
+        if(x < 0 || Double.isNaN(x)){
             logger.info("[OUTPUT NLOG] ERROR");
             return Double.NaN;
         }
 
         double res = Math.log(x);
         logger.info("[OUTPUT NLOG]" + res);
+        return res;
+    }
+
+    // Power function
+    public double power(double x, double n){
+        logger.info("[INPUT POWER] " + x + " " + n);
+
+        if(Double.isNaN(x) || Double.isNaN(n)){
+            logger.info("[OUTPUT POWER] ERROR");
+        }
+
+        double res = Math.pow(x, n);
+        logger.info("[OUTPUT POWER]" + res);
         return res;
     }
 
