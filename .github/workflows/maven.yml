@@ -1,0 +1,35 @@
+name: Java CI with Maven
+
+on:
+  push:
+    branches: [ "main" ]
+  pull_request:
+    branches: [ "main" ]
+
+jobs:
+  build:
+
+    runs-on: ubuntu-latest
+
+    steps:
+      # Checkout main branch
+      - name: checkout main branch from Github
+        uses: actions/checkout@v3
+
+      # Setup JDK
+      - name: Set up JDK 11
+        uses: actions/setup-java@v3
+        with:
+          java-version: '11'
+          distribution: 'temurin'
+          cache: maven
+      
+      # Build Maven project
+      - name: Build with Maven
+        run: mvn -B package --file pom.xml
+        
+      # Locate the created jar file
+      - name: Locate the jar file
+        run: |
+          cd target
+          ls -a
