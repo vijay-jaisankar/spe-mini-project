@@ -32,4 +32,25 @@ public class CalculatorTest{
         double expected = 20.024984394500787;
         assertEquals(observed, expected, 1e-10);
     }
+
+    @Test
+    public void testNaturalLogPositive(){
+        double observed = c.naturalLog(Math.E);
+        double expected = 1.0;
+        assertEquals(observed, expected, 1e-10);
+    }
+
+    @Test
+    public void testNaturalLogNegative(){
+        double observed = c.naturalLog(-Math.E);
+        double expected = Double.NaN;
+        assertEquals(observed, expected, 1e-10);
+    }
+
+    @Test
+    public void testNaturalLogPrecision(){
+        double observed = c.naturalLog(1.0);
+        double expected = 0.0;
+        assertEquals(observed, expected, 1e-10);
+    }
 }
