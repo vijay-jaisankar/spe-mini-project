@@ -27,7 +27,6 @@ jobs:
       # Build and Test Maven project
       - name: Build with Maven
         run: |
-          cd calculator
           mvn clean install
           mvn test
           mvn clean
