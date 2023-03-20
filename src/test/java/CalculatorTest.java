@@ -8,7 +8,7 @@ public class CalculatorTest{
     @Test
     public void sampleTest(){
         double observed = c.add(3.0, 2.0);
-        double expected =  5.0
+        double expected =  5.0;
         assertEquals(observed, expected, 1e-10);
     }
 }
