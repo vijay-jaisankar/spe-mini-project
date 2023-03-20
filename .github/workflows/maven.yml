@@ -1,4 +1,4 @@
-name: Java CI with Maven
+name: Java CI with Maven and Docker
 
 on:
   push:
@@ -29,4 +29,7 @@ jobs:
         run: |
           mvn clean install
           mvn test
-          mvn clean
+          
+      # Build Docker container
+      - name: Build Docker image
+        run: docker build . --file Dockerfile --tag sample-docker-image
