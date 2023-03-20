@@ -1,4 +1,4 @@
-name: Java CI with Maven and Docker
+name: Java CI with Maven and Dockerhub
 
 on:
   push:
@@ -49,3 +49,4 @@ jobs:
           file: ./Dockerfile
           push: true
           tags: ${{ secrets.DOCKERHUB_USERNAME }}/calc:latest
+          
