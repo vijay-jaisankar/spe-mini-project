@@ -9,12 +9,6 @@ public class Calculator {
     // Logger
     private static Logger logger = LogManager.getLogger(Calculator.class);
 
-    // Add function
-    public double add(double x, double y){
-        double res = x + y;
-        return res;
-    }
-
     // Square root function
     public double squareRoot(double x){
         logger.info("[INPUT SQROOT] " + x);

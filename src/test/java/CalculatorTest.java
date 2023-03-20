@@ -3,14 +3,8 @@ import static org.junit.Assert.assertEquals;
 import org.junit.Test;
 
 public class CalculatorTest{
+    // Calculator object
     Calculator c = new Calculator();
-
-    @Test
-    public void testAdd(){
-        double observed = c.add(3.0, 2.0);
-        double expected =  5.0;
-        assertEquals(observed, expected, 1e-10);
-    }
 
     @Test
     public void testSquareRootPositive(){
