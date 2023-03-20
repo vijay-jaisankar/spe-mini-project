@@ -33,5 +33,6 @@ jobs:
       # Locate the created jar file
       - name: Locate the jar file
         run: |
-          cd target
+          pwd
+          cd calcuator/target
           ls -a
