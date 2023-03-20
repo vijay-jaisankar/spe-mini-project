@@ -6,6 +6,7 @@ public class CalculatorTest{
     // Calculator object
     Calculator c = new Calculator();
 
+    // Square root
     @Test
     public void testSquareRootPositive(){
         double observed = c.squareRoot(49.0);
@@ -27,6 +28,7 @@ public class CalculatorTest{
         assertEquals(observed, expected, 1e-10);
     }
 
+    // Natural log
     @Test
     public void testNaturalLogPositive(){
         double observed = c.naturalLog(Math.E);
@@ -48,6 +50,7 @@ public class CalculatorTest{
         assertEquals(observed, expected, 1e-10);
     }
 
+    // Power
     @Test 
     public void testPowerPositive(){
         double observed = c.power(3.0, 2.0);
@@ -69,6 +72,7 @@ public class CalculatorTest{
         assertEquals(observed, expected, 1e-10);
     }
 
+    // Factorial
     @Test
     public void testFactorialPositive(){
         double observed = c.factorial(5.0);

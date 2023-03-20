@@ -128,5 +128,7 @@ public class Calculator {
                 else    System.out.println("Result of the factorial calculation: " + res);
             }
         }
+
+        sc.close();
     }
 }
