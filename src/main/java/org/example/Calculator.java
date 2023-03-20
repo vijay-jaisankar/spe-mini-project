@@ -50,6 +50,7 @@ public class Calculator {
 
         if(Double.isNaN(x) || Double.isNaN(n)){
             logger.info("[OUTPUT POWER] ERROR");
+            return Double.NaN;
         }
 
         double res = Math.pow(x, n);

@@ -53,4 +53,25 @@ public class CalculatorTest{
         double expected = 0.0;
         assertEquals(observed, expected, 1e-10);
     }
+
+    @Test 
+    public void testPowerPositive(){
+        double observed = c.power(3.0, 2.0);
+        double expected = 9.0;
+        assertEquals(observed, expected, 1e-10);
+    }
+
+    @Test
+    public void testPowerNegative(){
+        double observed = c.power(2.0, -1);
+        double expected = 1.0;
+        assertEquals(observed, expected, 1e-10);
+    }
+
+    @Test
+    public void testPowerPrecision(){
+        double observed = c.power(Double.NaN, 100);
+        double expected = Double.NaN;
+        assertEquals(observed, expected, 1e-10);
+    }
 }
