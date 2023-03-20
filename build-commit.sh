@@ -3,7 +3,7 @@ rm -f maven.log
 touch maven.log
 
 # Build and test the maven project
-mvn clean install test --log maven.log
+mvn clean install test --log-file maven.log
 
 # Pull any changes made in the UI
 git pull origin main
