@@ -1,5 +1,5 @@
 import org.example.Calculator;
-import static org.junit.Assert.*;
+import static org.junit.Assert.assertEquals;
 import org.junit.Test;
 
 public class CalculatorTest{
