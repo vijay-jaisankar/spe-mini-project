@@ -50,16 +50,6 @@ jobs:
           push: true
           tags: ${{ secrets.DOCKERHUB_USERNAME }}/calc:latest
           
-      # Install docker-compose and reload systemctl
-      - name: Install Docker compose
-        run: |
-          sudo apt install docker-compose
-          sudo systemctl daemon-reload
           
-      # Run the project remotely with Ansible
-      - name: Execute project on Ansible
-        uses: tomasnorre/ansible-cli-client@0.0.2
-        with:
-          command: "ansible-playbook calc-playbook.yml -i inventory -vvv"
 
           
