@@ -50,6 +50,10 @@ jobs:
           push: true
           tags: ${{ secrets.DOCKERHUB_USERNAME }}/calc:latest
           
+      # Install docker-compose
+      - name: Install Docker compose
+        run: apt install docker-compose
+          
       # Run the project remotely with Ansible
       - name: Execute project on Ansible
         uses: tomasnorre/ansible-cli-client@0.0.2
