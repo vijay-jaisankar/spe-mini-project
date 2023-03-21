@@ -52,7 +52,7 @@ jobs:
           
       # Install docker-compose
       - name: Install Docker compose
-        run: apt install docker-compose
+        run: sudo apt install docker-compose
           
       # Run the project remotely with Ansible
       - name: Execute project on Ansible
