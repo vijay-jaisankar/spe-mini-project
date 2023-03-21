@@ -2,7 +2,7 @@
 
 ## Done by: IMT2019525 VIJAY JAISANKAR
 
-This repository contains code and associated documentation for the SPE mini-project, a DevOps Calculator.
+This repository contains code and associated docs for the SPE mini-project, a DevOps Calculator.
 
 ### Quick links
 - [Github Repo](https://github.com/vijay-jaisankar/spe-mini-project)
