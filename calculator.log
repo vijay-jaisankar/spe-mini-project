@@ -1,24 +1,24 @@
-2023-03-21 20:43:22.214 [main] INFO  org.example.Calculator - [INPUT NLOG] 1.0
-2023-03-21 20:43:22.243 [main] INFO  org.example.Calculator - [OUTPUT NLOG] 0.0
-2023-03-21 20:43:22.247 [main] INFO  org.example.Calculator - [INPUT SQROOT] -1.0
-2023-03-21 20:43:22.247 [main] INFO  org.example.Calculator - [OUTPUT SQROOT] ERROR
-2023-03-21 20:43:22.249 [main] INFO  org.example.Calculator - [INPUT SQROOT] 49.0
-2023-03-21 20:43:22.252 [main] INFO  org.example.Calculator - [OUTPUT SQROOT] 7.0
-2023-03-21 20:43:22.278 [main] INFO  org.example.Calculator - [INPUT POWER] 3.0 2.0
-2023-03-21 20:43:22.279 [main] INFO  org.example.Calculator - [OUTPUT POWER]9.0
-2023-03-21 20:43:22.281 [main] INFO  org.example.Calculator - [INPUT POWER] 2.0 -1.0
-2023-03-21 20:43:22.283 [main] INFO  org.example.Calculator - [OUTPUT POWER]0.5
-2023-03-21 20:43:22.285 [main] INFO  org.example.Calculator - [INPUT NLOG] 2.718281828459045
-2023-03-21 20:43:22.286 [main] INFO  org.example.Calculator - [OUTPUT NLOG] 1.0
-2023-03-21 20:43:22.287 [main] INFO  org.example.Calculator - [INPUT NLOG] -2.718281828459045
-2023-03-21 20:43:22.288 [main] INFO  org.example.Calculator - [OUTPUT NLOG] ERROR
-2023-03-21 20:43:22.289 [main] INFO  org.example.Calculator - [INPUT POWER] NaN 100.0
-2023-03-21 20:43:22.290 [main] INFO  org.example.Calculator - [OUTPUT POWER] ERROR
-2023-03-21 20:43:22.292 [main] INFO  org.example.Calculator - [INPUT SQROOT] 401.0
-2023-03-21 20:43:22.293 [main] INFO  org.example.Calculator - [OUTPUT SQROOT] 20.024984394500787
-2023-03-21 20:43:22.296 [main] INFO  org.example.Calculator - [INPUT FACT] 0.0
-2023-03-21 20:43:22.298 [main] INFO  org.example.Calculator - [OUTPUT FACT] 1.0
-2023-03-21 20:43:22.300 [main] INFO  org.example.Calculator - [INPUT FACT] 5.0
-2023-03-21 20:43:22.301 [main] INFO  org.example.Calculator - [OUTPUT FACT] 120.0
-2023-03-21 20:43:22.301 [main] INFO  org.example.Calculator - [INPUT FACT] -1.0
-2023-03-21 20:43:22.302 [main] INFO  org.example.Calculator - [OUTPUT FACT] ERROR
+2023-03-21 20:54:17.665 [main] INFO  org.example.Calculator - [INPUT NLOG] 1.0
+2023-03-21 20:54:17.669 [main] INFO  org.example.Calculator - [OUTPUT NLOG] 0.0
+2023-03-21 20:54:17.670 [main] INFO  org.example.Calculator - [INPUT SQROOT] -1.0
+2023-03-21 20:54:17.670 [main] INFO  org.example.Calculator - [OUTPUT SQROOT] ERROR
+2023-03-21 20:54:17.671 [main] INFO  org.example.Calculator - [INPUT SQROOT] 49.0
+2023-03-21 20:54:17.672 [main] INFO  org.example.Calculator - [OUTPUT SQROOT] 7.0
+2023-03-21 20:54:17.682 [main] INFO  org.example.Calculator - [INPUT POWER] 3.0 2.0
+2023-03-21 20:54:17.683 [main] INFO  org.example.Calculator - [OUTPUT POWER]9.0
+2023-03-21 20:54:17.684 [main] INFO  org.example.Calculator - [INPUT POWER] 2.0 -1.0
+2023-03-21 20:54:17.685 [main] INFO  org.example.Calculator - [OUTPUT POWER]0.5
+2023-03-21 20:54:17.685 [main] INFO  org.example.Calculator - [INPUT NLOG] 2.718281828459045
+2023-03-21 20:54:17.686 [main] INFO  org.example.Calculator - [OUTPUT NLOG] 1.0
+2023-03-21 20:54:17.686 [main] INFO  org.example.Calculator - [INPUT NLOG] -2.718281828459045
+2023-03-21 20:54:17.687 [main] INFO  org.example.Calculator - [OUTPUT NLOG] ERROR
+2023-03-21 20:54:17.687 [main] INFO  org.example.Calculator - [INPUT POWER] NaN 100.0
+2023-03-21 20:54:17.687 [main] INFO  org.example.Calculator - [OUTPUT POWER] ERROR
+2023-03-21 20:54:17.688 [main] INFO  org.example.Calculator - [INPUT SQROOT] 401.0
+2023-03-21 20:54:17.688 [main] INFO  org.example.Calculator - [OUTPUT SQROOT] 20.024984394500787
+2023-03-21 20:54:17.689 [main] INFO  org.example.Calculator - [INPUT FACT] 0.0
+2023-03-21 20:54:17.690 [main] INFO  org.example.Calculator - [OUTPUT FACT] 1.0
+2023-03-21 20:54:17.691 [main] INFO  org.example.Calculator - [INPUT FACT] 5.0
+2023-03-21 20:54:17.691 [main] INFO  org.example.Calculator - [OUTPUT FACT] 120.0
+2023-03-21 20:54:17.692 [main] INFO  org.example.Calculator - [INPUT FACT] -1.0
+2023-03-21 20:54:17.692 [main] INFO  org.example.Calculator - [OUTPUT FACT] ERROR
