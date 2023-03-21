@@ -52,7 +52,7 @@ jobs:
           
       # Run the project remotely with Ansible
       - name: Execute project on Ansible
-        uses: tomasnorre/ansible-cli-action@0.0.5
+        uses: tomasnorre/ansible-cli-client@0.0.5
         with:
           command: "ansible-playbook calc-playbook.yml"
 
