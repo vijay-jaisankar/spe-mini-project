@@ -50,9 +50,11 @@ jobs:
           push: true
           tags: ${{ secrets.DOCKERHUB_USERNAME }}/calc:latest
           
-      # Install docker-compose
+      # Install docker-compose and reload systemctl
       - name: Install Docker compose
-        run: sudo apt install docker-compose
+        run: |
+          sudo apt install docker-compose
+          sudo systemctl daemon-reload
           
       # Run the project remotely with Ansible
       - name: Execute project on Ansible
