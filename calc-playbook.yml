@@ -1,0 +1,14 @@
+---
+- name: Pull docker image of Calculator
+  hosts: all
+  tasks:
+    - name: Start docker service
+      service:
+        name: docker
+        state: started
+
+    - name: Pull docker image
+      shell: docker pull thehungrypigeon/calc:latest
+
+    - name: Run container on remote host
+      shell: docker run -it -d thehungrypigeon/calc:latest /bin/bash
