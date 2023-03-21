@@ -54,6 +54,6 @@ jobs:
       - name: Execute project on Ansible
         uses: tomasnorre/ansible-cli-client@0.0.2
         with:
-          command: "ansible-playbook calc-playbook.yml"
+          command: "ansible-playbook calc-playbook.yml -i inventory -vvv"
 
           
