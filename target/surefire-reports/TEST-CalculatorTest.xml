@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite tests="12" failures="0" name="CalculatorTest" time="1.332" errors="0" skipped="0">
+<testsuite tests="12" failures="0" name="CalculatorTest" time="0.658" errors="0" skipped="0">
   <properties>
     <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
     <property name="java.vm.version" value="11.0.17+8-post-Ubuntu-1ubuntu220.04"/>
@@ -61,14 +61,14 @@
     <property name="sun.desktop" value="gnome"/>
     <property name="sun.cpu.isalist" value=""/>
   </properties>
-  <testcase classname="CalculatorTest" name="testNaturalLogPrecision" time="1.317"/>
+  <testcase classname="CalculatorTest" name="testNaturalLogPrecision" time="0.642"/>
   <testcase classname="CalculatorTest" name="testSquareRootEdge" time="0"/>
   <testcase classname="CalculatorTest" name="testSquareRootPositive" time="0.001"/>
-  <testcase classname="CalculatorTest" name="testPowerPositive" time="0.008"/>
+  <testcase classname="CalculatorTest" name="testPowerPositive" time="0.01"/>
   <testcase classname="CalculatorTest" name="testPowerNegative" time="0.001"/>
   <testcase classname="CalculatorTest" name="testNaturalLogPositive" time="0.001"/>
   <testcase classname="CalculatorTest" name="testNaturalLogNegative" time="0"/>
-  <testcase classname="CalculatorTest" name="testPowerPrecision" time="0.001"/>
+  <testcase classname="CalculatorTest" name="testPowerPrecision" time="0"/>
   <testcase classname="CalculatorTest" name="testSquareRootPrecision" time="0.001"/>
   <testcase classname="CalculatorTest" name="testFactorialPrecision" time="0.001"/>
   <testcase classname="CalculatorTest" name="testFactorialPositive" time="0.001"/>

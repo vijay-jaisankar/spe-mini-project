@@ -38,31 +38,31 @@
  T E S T S
 -------------------------------------------------------
 Running CalculatorTest
-23:19:14.721 [main] INFO  org.example.Calculator - [INPUT NLOG] 1.0
-23:19:14.725 [main] INFO  org.example.Calculator - [OUTPUT NLOG] 0.0
-23:19:14.726 [main] INFO  org.example.Calculator - [INPUT SQROOT] -1.0
-23:19:14.726 [main] INFO  org.example.Calculator - [OUTPUT SQROOT] ERROR
-23:19:14.726 [main] INFO  org.example.Calculator - [INPUT SQROOT] 49.0
-23:19:14.727 [main] INFO  org.example.Calculator - [OUTPUT SQROOT] 7.0
-23:19:14.735 [main] INFO  org.example.Calculator - [INPUT POWER] 3.0 2.0
-23:19:14.736 [main] INFO  org.example.Calculator - [OUTPUT POWER]9.0
-23:19:14.736 [main] INFO  org.example.Calculator - [INPUT POWER] 2.0 -1.0
-23:19:14.737 [main] INFO  org.example.Calculator - [OUTPUT POWER]0.5
-23:19:14.737 [main] INFO  org.example.Calculator - [INPUT NLOG] 2.718281828459045
-23:19:14.737 [main] INFO  org.example.Calculator - [OUTPUT NLOG] 1.0
-23:19:14.738 [main] INFO  org.example.Calculator - [INPUT NLOG] -2.718281828459045
-23:19:14.738 [main] INFO  org.example.Calculator - [OUTPUT NLOG] ERROR
-23:19:14.738 [main] INFO  org.example.Calculator - [INPUT POWER] NaN 100.0
-23:19:14.739 [main] INFO  org.example.Calculator - [OUTPUT POWER] ERROR
-23:19:14.739 [main] INFO  org.example.Calculator - [INPUT SQROOT] 401.0
-23:19:14.739 [main] INFO  org.example.Calculator - [OUTPUT SQROOT] 20.024984394500787
-23:19:14.740 [main] INFO  org.example.Calculator - [INPUT FACT] 0.0
-23:19:14.741 [main] INFO  org.example.Calculator - [OUTPUT FACT] 1.0
-23:19:14.741 [main] INFO  org.example.Calculator - [INPUT FACT] 5.0
-23:19:14.741 [main] INFO  org.example.Calculator - [OUTPUT FACT] 120.0
-23:19:14.742 [main] INFO  org.example.Calculator - [INPUT FACT] -1.0
-23:19:14.742 [main] INFO  org.example.Calculator - [OUTPUT FACT] ERROR
-Tests run: 12, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 1.396 sec
+23:21:38.672 [main] INFO  org.example.Calculator - [INPUT NLOG] 1.0
+23:21:38.675 [main] INFO  org.example.Calculator - [OUTPUT NLOG] 0.0
+23:21:38.676 [main] INFO  org.example.Calculator - [INPUT SQROOT] -1.0
+23:21:38.677 [main] INFO  org.example.Calculator - [OUTPUT SQROOT] ERROR
+23:21:38.677 [main] INFO  org.example.Calculator - [INPUT SQROOT] 49.0
+23:21:38.678 [main] INFO  org.example.Calculator - [OUTPUT SQROOT] 7.0
+23:21:38.688 [main] INFO  org.example.Calculator - [INPUT POWER] 3.0 2.0
+23:21:38.689 [main] INFO  org.example.Calculator - [OUTPUT POWER]9.0
+23:21:38.690 [main] INFO  org.example.Calculator - [INPUT POWER] 2.0 -1.0
+23:21:38.690 [main] INFO  org.example.Calculator - [OUTPUT POWER]0.5
+23:21:38.691 [main] INFO  org.example.Calculator - [INPUT NLOG] 2.718281828459045
+23:21:38.691 [main] INFO  org.example.Calculator - [OUTPUT NLOG] 1.0
+23:21:38.692 [main] INFO  org.example.Calculator - [INPUT NLOG] -2.718281828459045
+23:21:38.692 [main] INFO  org.example.Calculator - [OUTPUT NLOG] ERROR
+23:21:38.693 [main] INFO  org.example.Calculator - [INPUT POWER] NaN 100.0
+23:21:38.693 [main] INFO  org.example.Calculator - [OUTPUT POWER] ERROR
+23:21:38.694 [main] INFO  org.example.Calculator - [INPUT SQROOT] 401.0
+23:21:38.694 [main] INFO  org.example.Calculator - [OUTPUT SQROOT] 20.024984394500787
+23:21:38.695 [main] INFO  org.example.Calculator - [INPUT FACT] 0.0
+23:21:38.696 [main] INFO  org.example.Calculator - [OUTPUT FACT] 1.0
+23:21:38.697 [main] INFO  org.example.Calculator - [INPUT FACT] 5.0
+23:21:38.697 [main] INFO  org.example.Calculator - [OUTPUT FACT] 120.0
+23:21:38.698 [main] INFO  org.example.Calculator - [INPUT FACT] -1.0
+23:21:38.698 [main] INFO  org.example.Calculator - [OUTPUT FACT] ERROR
+Tests run: 12, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.755 sec
 
 Results :
 
@@ -161,6 +161,6 @@ Tests run: 12, Failures: 0, Errors: 0, Skipped: 0
 [INFO] ------------------------------------------------------------------------
 [INFO] BUILD SUCCESS
 [INFO] ------------------------------------------------------------------------
-[INFO] Total time:  9.632 s
-[INFO] Finished at: 2023-03-21T23:19:17+05:30
+[INFO] Total time:  5.188 s
+[INFO] Finished at: 2023-03-21T23:21:40+05:30
 [INFO] ------------------------------------------------------------------------
